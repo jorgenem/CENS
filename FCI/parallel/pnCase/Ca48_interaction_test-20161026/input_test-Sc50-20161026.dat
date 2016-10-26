@@ -1,0 +1,64 @@
+           ** All input data are identified through a text-line which
+           ** starts with the two symbols '/' and '*' and ends with ":" or ";"
+           ** Additional informative text may be included in the form
+           **        <........ Informative text....... >
+           ** 
+
+\* Shell model calculation of proton/neutron systemA -- title: Sc50-20161026-test1
+
+
+\* The proton number:   1
+\* The neutron number:  1
+
+\* Twice total projection of angular momentum: 2
+\* Total parity (+, -): +
+
+\* The number of proton particle j-orbits: 4
+	           <N  n  l  2*j   min_part  max_part energy:>
+\* Orbit_Z:   3  1  1   1       0        2        7.2411
+\* Orbit_Z:   3  0  3   5       0        6        4.487
+\* Orbit_Z:   3  1  1   3       0        4        2.9447
+\* Orbit_Z:   3  0  3   7       0        8        0.0
+
+\* The number of neutron particle j-orbits: 4
+             <N  n  l  2*j   min_part  max_part energy:>     
+\* Orbit_N:   4  0  4    9      0         0     3.7
+\* Orbit_N:   3  1  1    1      0         0     2.754          
+\* Orbit_N:   3  0  3    5      0         0     1.5423         
+\* Orbit_N:   3  1  1    3      0         2     0.0            
+
+
+<************* type of program process ***********>
+
+ <** Effective interaction Lanczo process     0  **>
+ <** Calculation of shell-model dimension     1	 **>
+
+
+\* Type of calculation process: 0
+
+      <***** Type of interaction ******>
+
+    <** Two-part veffJ    0 **>
+    <** Two-part veffM    1 **>
+    <** Three-part veffM  2 **>
+
+\* Type of effective interaction: 0
+
+\* Input proton-proton   V-effective:    fpshell_pp.dat
+\* Input neutron-neutron V-effective:    f5pg9shell_nn.dat
+\* Input proton-neutron  V-effective:    fpg9shell_pn.dat
+
+
+<** Temp. files for storage of nondiag_matr_elem and Lanczos vector **>
+
+\* Memory size to store nondiag <pn_SD'|OP|pn_SD> in MB (default 500 MB):1000
+
+\* Max file size for lanczos vectors    in Gb (default 10 GB): 10
+
+<** Energy eigenvalue parameters **>
+
+\* Maximum Lanczos iterations (<1000): 100
+\* Wanted number of converged eigenstates: 10
+
+<*** END_OF_INPUT_FILE ***> 
+<*** END_OF_INPUT_FILE ***> 
