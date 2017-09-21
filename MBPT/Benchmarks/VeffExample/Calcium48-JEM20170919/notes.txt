@@ -1,0 +1,3 @@
+20170921: I've been going back and forth on this a little. But I think I want to try to carry out a full calculation with the present setup. I've included 17 orbitals, which comprises the full fp+sdg shells, except the f7/2 orbital for neutrons since it's a Ca48 core.
+
+The question now is what takes time. It seems that the renormalization part of the job is quite quick, but then the effectivization part is really intensive. I am also not sure which settings are best to use, whether Vlowk is ok (it was used in the example) or if some RG type renorm is better. And I don't know how to tweak the parameters to get something realistic.
